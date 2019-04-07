@@ -21,6 +21,8 @@ import { HeroeComponent } from './components/heroe/heroe.component';
 import { ResultadosComponent } from './components/resultados/resultados.component';
 import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
