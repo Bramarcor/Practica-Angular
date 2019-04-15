@@ -1,0 +1,199 @@
+* {
+	font-family: arial, verdana, sans-serif;
+	color: #EEEEEE;
+}
+
+body {
+	background-color: #3A88C3;
+}
+
+#Contenedor {
+	background-color: #0B2161;
+	width:80%;
+	margin:auto;
+
+}
+
+#Encabezado {
+	background-color: #000000;
+	max-height: 100px;
+	padding: 10px;
+}
+
+#Encabezado p {
+	font-size: 40px;
+	margin: 20px;
+	display: inline-block;
+}
+
+#Logo {
+	float: right;
+}
+
+#Titulo-calcular , #Titulo-resultado , #Titulo-opciones {
+	background-color: #084B8A;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+/*
+#Contenedor-resultado div {
+	position: relative;
+	float: left;
+	width: 12%;
+	text-align: center;
+	margin-left: 2%;
+}*/
+
+#Calcular p, #Resultado p, #Opciones p, a {
+	background-color: #084B8A;
+	display: inline-block;
+	margin: auto;
+}
+
+#Contenedor-opciones {
+	display: none;
+}
+
+#Opciones #Contenedor-opciones p {
+	background-color: #0B2161;
+	margin: 10px;
+}
+
+a:hover {
+	background-color: #0080FF;
+}
+
+#Ciclo-actual {
+	margin-top: 15px;
+}
+
+#Ciclo-actual img {
+	position: relative;
+	display: inline-block;
+	max-width: 70%;
+	max-height: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	border-radius: 10%;
+}
+
+#Ciclo-actual p {
+	text-align: center;
+	margin-top: 1%;
+}
+
+#Hoy, #Ayer, #Maniana {
+	display: inline-block;
+	width: 30%;
+	margin-left: 2.3%;
+}
+
+#Cantidad-lunas, #Formato-fecha {
+	width: 50%;
+	float: left;
+}
+
+#Contenedor-opciones #linea {
+	display: block;
+}
+
+#fecha {
+	color: #000;
+}
+
+table{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+}
+
+table, td {
+	background-color: #ccccff;
+	border: 1px solid #000;
+	border-collapse: collapse;
+	color: #000;
+}
+
+table img {
+	width: 20px;
+	height: 20px;
+}
+
+#Red {
+	color: #ff0000;
+}
+
+#Negrita td {
+	font-weight: bold;
+	background-color: #6666ff;
+}
+
+.elem {
+	display: inline-block;
+}
+
+#ccl img {
+	margin-top: 10px;
+	height: 15px;
+	width: 15px;
+}
+
+#calendario {
+	margin-left: 225px;
+	display: none;
+}
+
+#Contenedor-resultado {
+	display: block;
+	position: relative;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#Contenedor-resultado img {
+	position: relative;
+	display: block;
+	max-width: 80%;
+	max-height: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	border-radius: 10%;
+}
+
+
+.classsiete {
+	position:relative;	
+	float:left;	width:12%;	
+	text-align:center;	
+	margin-left:2%;}
+
+.classtres {
+	position:relative;
+	float:left;	width:30%;
+	text-align:center;
+	margin-left:2%;}
+
+.classcinco {
+	position:relative;	
+	float:left;	width:18%;	
+	text-align:center;	
+	margin-left:2%;}
+
+
+
+
+
+
+
+
+
+
+
+#Pie {
+	background-color: #000000;
+	vertical-align: sub;
+	clear: both;
+}

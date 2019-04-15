@@ -1,0 +1,47 @@
+
+
+function Calcular_luna_hoy(){
+  var Fecha_selec = Hoy.getTime();
+  var Diferencia = Milisegundos_Primer_luna_nueva - Fecha_selec;
+  var Ciclos = (Diferencia / Ciclo_lunar).toString();
+  var Decimal = Ciclos.split('.');
+  var Porcentaje = Number('0.'+ Decimal[1]);
+  var Luna = Ciclo_lunar * Porcentaje;
+}
+
+
+function Calcular_luna_select(){
+  var Fecha_selec = Fecha.getTime();
+  var Diferencia = Milisegundos_Primer_luna_nueva - Fecha_selec;
+  var Ciclos = (Diferencia / Ciclo_lunar).toString();
+  var Decimal = Ciclos.split('.');
+  var Porcentaje = Number('0.'+ Decimal[1]);
+  var Luna = Ciclo_lunar * Porcentaje;
+}
+
+function Mostrar_calendario(){
+  var mocal = document.getElementById("calendario");//se crea una variable con la seleccion del id
+  var stylemocal = window.getComputedStyle(mocal).display;//variable con el valor del estilo display
+
+  if (stylemocal == 'none') {//se compara el estilo obtenido del elemento DOM señalado
+  document.getElementById("calendario").style.display= "block";
+} else {
+  document.getElementById("calendario").style.display= "none";
+} 
+}
+
+
+function Mostrar_opciones(){
+  var op = document.getElementById("Contenedor-opciones");//se crea una variable con la seleccion del id
+  var styleop = window.getComputedStyle(op).display;//variable con el valor del estilo display
+
+  if (styleop == 'none') {//se compara el estilo obtenido del elemento DOM señalado
+  document.getElementById("Contenedor-opciones").style.display= "block";
+  document.getElementById("mco").innerHTML="----";
+} else {
+  document.getElementById("Contenedor-opciones").style.display= "none";
+  document.getElementById("mco").innerHTML="+++";
+} 
+}
+
+

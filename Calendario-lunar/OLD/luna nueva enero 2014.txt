@@ -1,0 +1,17 @@
+Luna nueva	1 enero 2014	12:15:02
+
+en milisegundos 1388585702000
+en segundos	1388585702
+en minutos	23143095,03
+en horas	385718,25
+en dias		16071,59
+
+
+
+Ciclo lunar exacto con referencia en la Revolución sinódica:
+
+29 días, 12 h, 44 min, 2,78 s. 
+en milisegundos	2551442780
+
+
+Tiempo por imagen 45561478
